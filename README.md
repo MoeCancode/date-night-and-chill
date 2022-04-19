@@ -1,29 +1,18 @@
-# Daily-Schedule-Planner
+# Date Night and Chill
 
-## <ins> Table of Contents: </ins>
+<br>
 
-- [Description of the Task](#-description-of-the-task-)
-- [User Story](#user-story)
-- [Description of the Page](#-description-of-the-page-)
-- [Remarks](#-remarks-)
-- [Learning Points](#-learning-points-)
-- [Technologies and Programs Used](#-technologies-and-programs-used-)
-- [Installation](#-installation-)
-- [Site Demonstration](#-site-demonstration-)
-- [Links](#-links-)
-- [Credits](#-credits-)
-- [License](#-license-)
+We created a fun webpage that implements multiple APIs in order to generate random things to do on a date. Users can plan a nice and unique date by getting arbitrary suggestions for various things on our app.
 
+Who would this program be suited for? This program is available for interested parties who are looking for boosting their effectiveness when it comes to choosing interesting new activities. Tired of your Tinder Date calling you boring? Spark the tinderbox within his or her eyes with this program today! 
 
-## <ins> Description of the Task: </ins>
+<br>
 
-The task that was given was to create a webpage that impliments multiple APIs in order to satisfy a needed function for a particular user.
-
-## <ins> User Story: </ins>
+#  User Story 
 
     As a user struggling with being labeled as boring, I want a website that can help me generate ideas for a fun date.
     ---------------------------------------------------------------------------------
-    As a user, I would like a simple interface that is easy to work with and that when I click on a start button, I am presented with inputs that will take in my date selections.
+    As a user, I would like a simple interface that is easy to work with and when I click on a start button, I am presented with inputs that will take in my date selections.
     ---------------------------------------------------------------------------------
     As a user, I would like to be able to randomly generate specific categories' ideas and save the ones that I particularily like.
     ---------------------------------------------------------------------------------
@@ -31,23 +20,60 @@ The task that was given was to create a webpage that impliments multiple APIs in
     ---------------------------------------------------------------------------------
     As a user, I would like to be able to save my date ideas so I can pull up past ideas if needed.
 
-## <ins> Description of the Page: </ins>
+<br>
 
-This page is constructed with HTML, CSS, and Javascript and it features usage of jQuery and various APIs to create a unique random date idea. Who would this program be suited for? This program is available for interested parties who are looking for boosting their effectiveness when it comes to choosing interesting new activities. Tired of your Tinder Date calling you boring? Spark the tinderbox within his or her eyes with this program today! 
+# Site Preview
 
-## <ins> Remarks: </ins>
+![Site Demonstration](./assets/site-demonstration/site-demonstration.gif)
 
-- There are comments added throughout the files that specifies what each part of the code does what.
+<br>
 
-## <ins> Learning Points: </ins>
+# Working
 
-- Learned how to utilize 3rd parties APIs.
-- Learned how to utilize multiple independant Javascript files to make a webpage modular and easily workable with multiple people working on a website at the same time.
-- Learned how to collaborate work between a team individually to be able to accomplish a goal within a set amount of time.
-- Learned how to utilize Materialize CSS to create a professional appearance on a page.
-- Learned how to shift through available APIs to find the ones that we need specifically for our website.
+This page is constructed with HTML, CSS, and Javascript and it features usage of jQuery and various APIs to create a unique random date idea. 
 
-## <ins> Technologies and Programs Used: </ins>
+There are comments added throughout the files that specify what each part of the code does.
+
+Here is a list of some of the work done to get this app running:
+
+- Utilized several 3rd parties APIs.
+- Made use of multiple independant Javascript files to make a webpage modular and easily workable with multiple people working on a website at the same time.
+- Utilized Materialize CSS to create a professional appearance on the page.
+- Explored the contents of data objects returned by APIs to get random values.
+
+<br>
+
+# Features
+
+Here are a few interesting features added to improve user experience
+
+<br>
+
+## Pointer Events
+
+<br>
+
+<img src="./assets/images/pointer.gif">
+
+<br>
+
+Submit buttons are disbled until a choice is generated so that the user does not accidentally skip over any category.
+
+<br>
+
+## Generate Message
+
+<br>
+
+<img src="./assets/images/message.gif">
+
+<br>
+
+In order to make the application more practical, a generate message button can be clicked to take all the choices selected by the user and generate a nice message that can be copied and sent to the user's significant other.
+
+<br>
+
+# Technologies and Programs Used
 
 - [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
 - [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
@@ -64,27 +90,49 @@ This page is constructed with HTML, CSS, and Javascript and it features usage of
 - [Git/Github](https://github.com/)
 - [Chrome Developer Tools](https://developer.chrome.com/docs/devtools/)
 
+<br>
 
-## <ins> Installation: </ins>
+# Installation
 
-Please make sure to download all the respective files that is provided along with the webpage.
+Please make sure to download all the respective files that are provided along with the webpage.
 
-## <ins> Site Demonstration: </ins>
+<br>
 
-![Site Demonstration](./assets/site-demonstration/site-demonstration.gif)
-
-## <ins> Links: </ins>
+# Links
 
 - [Github Deployed Website](https://sfzmango.github.io/date-night-and-chill/)
 - [Github Repository](https://github.com/Sfzmango/date-night-and-chill)
 
+<br>
 
-## <ins> Credits: </ins>
+# Contributors
 
 - [Maung Htike](https://github.com/Sfzmango)
 - [Samuel Mandel](https://github.com/Sambalogna)
 - [Mohammad Razvi](https://github.com/MoeCancode)
 
-## <ins> License: </ins>
+<br>
 
-MIT
+# License
+
+MIT License
+
+Copyright (c) [2022] [Mohammad Abuzar Razvi]
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.

@@ -116,7 +116,7 @@ function makeButton() {
     generateMessage.setAttribute("id", "generateButton");
     generateMessage.classList.add("btn");
     var theButtonDiv = document.createElement("div");
-    theButtonDiv.setAttribute("id", "generateButtonDiv")
+    theButtonDiv.setAttribute("id", "generateButtonDiv");
     theButtonDiv.appendChild(generateMessage)
     $("#combo").append(theButtonDiv);
 
